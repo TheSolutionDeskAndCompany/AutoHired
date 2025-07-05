@@ -1,0 +1,39 @@
+Build an app called AutoHired.
+
+AutoHired is a cross-platform job application automation tool designed for both desktop and mobile users. It includes the following features:
+
+1. **Master Resume Builder**  
+   - Helps users create a complete master resume by uploading old resumes, cover letters, or Records of Employment (ROEs).  
+   - Uses OCR and/or content extraction to identify and merge work history, skills, education, and accomplishments.  
+   - Allows users to edit and organize this data into a structured, reusable resume profile.
+
+2. **Automated Job Scraper**  
+   - Searches job boards (e.g., Indeed, Job Bank, LinkedIn) for listings based on keywords, location, job type, and other preferences.  
+   - Filters listings by match strength, pay rate, commute distance, employer name, or custom rules.  
+
+3. **Tailored Resume & Cover Letter Generation**  
+   - Uses the master resume and scraped job descriptions to automatically create job-specific resumes and cover letters.  
+   - Can personalize tone and format using templates or predefined personas (e.g., formal, friendly, techy, corporate).  
+
+4. **Application Tracking & Storage**  
+   - Saves all scraped listings, tailored resumes, and cover letters in an organized folder system.  
+   - Logs when and where applications were sent, their status, and any follow-up info.  
+   - Generates reports for user review (e.g., weekly summaries or visual dashboards).  
+
+5. **Automated Email Summary**  
+   - Sends a scheduled email with a summary of new jobs, applications submitted, and documents attached.
+
+6. **User Profiles & Goal Tracking**  
+   - Supports multiple resume styles or job types (e.g., construction vs tech).  
+   - Lets users set application goals (e.g., 5 apps/day) and tracks performance.  
+
+7. **Monetization Strategy**  
+   - A **Lite version** is open source and available on the creator’s GitHub. It includes basic scraping, resume creation, and emailing.  
+   - A **Premium version** is private, with advanced features like AI-powered rewriting, automatic form submissions, OCR document parsing, and resume scoring.  
+   - Premium users can pay via a license key, subscription, or token system.  
+
+8. **Cross-Platform & App Ready**  
+   - The interface must be responsive and mobile-friendly, with support for desktop browsers, mobile browsers, and ideally a mobile app version (PWA or native wrapper).  
+   - Prioritize accessibility and minimal setup so users can run it from phone or PC.
+
+No tech stack is specified — use whatever makes the most sense, including web frameworks, scraping libraries, resume parsers, AI/LLMs, or mobile frameworks. Make it scalable, modular, and user-extensible.
